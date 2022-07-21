@@ -1,3 +1,5 @@
+\# src:
+
 ```console
 $ stat "linux練習-201403-2pages.pdf"
   File: linux練習-201403-2pages.pdf
@@ -8,28 +10,36 @@ Access: 2021-11-23 14:46:14.473895200 +0800
 Modify: 2014-03-19 20:46:17.538070700 +0800
 Change: 2021-04-12 18:46:47.655830000 +0800
  Birth: 2021-11-23 14:46:14.470025400 +0800
-
+```
+```console
 $ sum "linux練習-201403-2pages.pdf"
 36881    63
-
+```
+```console
 $ cksum "linux練習-201403-2pages.pdf"
 270265573 64338 linux練習-201403-2pages.pdf
-
+```
+```console
 $ md5sum "linux練習-201403-2pages.pdf"
 78d67889263da8964d204bb43314bfaf *linux練習-201403-2pages.pdf
-
+```
+```console
 $ sha1sum "linux練習-201403-2pages.pdf"
 ae12fa4791b759ce0f7ac9a63ad0ce8559cb2637 *linux練習-201403-2pages.pdf
-
+```
+```console
 $ sha256sum "linux練習-201403-2pages.pdf"
 29ac5938689124de9a3022aa4e5ccc7be4b2035befa57aa18cadd5250a0ff53b *linux練習-201403-2pages.pdf
-
+```
+```console
 $ sha512sum "linux練習-201403-2pages.pdf"
 7c56801e8c23f086d87d891b10a189ec7f71463c188b74ba0be81c7fbe318926d648a287f7b7d37b521f61738a22d94fb9e65e2b95c5a768215eb898c08823a0 *linux練習-201403-2pages.pdf
-
+```
+```console
 $ sha3sum "linux練習-201403-2pages.pdf"
 341ddecd02c3df33e3363c061972dce1dd2804534108dae93370a285  linux▒m▒▒-201403-2pages.pdf
-
+```
+```console
 $ b3sum "linux練習-201403-2pages.pdf"
 e0e085d0aeb4b1e61823f612c7e14b1cc2e3680363668cd6355901fc5dc02b10 *linux練習-201403-2pages.pdf
 ```
